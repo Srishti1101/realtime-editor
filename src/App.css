@@ -1,0 +1,134 @@
+.homePageWrapper{
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formWrapper{
+  background-color: black;
+  padding: 20px;
+  border-radius: 30px;
+  width: 450px;
+  max-width: 90%;
+}
+footer{
+  bottom: 0;
+  position: fixed;
+}
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+.img{
+  width:300px;
+  height: 100px;
+}
+.inputBox{
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  padding: 10px;
+  width: 100px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn2{
+  padding: 5px;
+  width: 80px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn2:hover{
+  background-color: gray;
+}
+.joinBtn{
+  margin-left: auto;
+  background-color: rgb(81, 164, 81);
+}
+.joinBtn:hover{
+  background-color: green;
+}
+.createInfo{
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.connectDec{
+  text-decoration: none;
+  color: rgb(15, 72, 15);
+}
+.connectDec:hover{
+  color: rgb(7, 34, 7);
+}
+.mainWrap{
+  display: grid;
+  grid-template-columns: 290px 1fr;
+  /* height: 100vh; */
+}
+.logoImage{
+  width:250px;
+  height: 80px;
+  
+}
+.logo{
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+.aside{
+  background-color: black;
+  color: white;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner{
+  flex:1;
+}
+.clientList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.username{
+  margin-top: 7px;
+}
+.copyBtn{
+margin: auto;
+width: 100%;
+
+}
+.copyBtn:hover{
+  background-color: gray;
+}
+.leaveBtn{
+  margin: auto;
+  width: 100%;
+  margin-top: 8px;
+  background-color: rgb(81, 164, 81)
+}
+.leaveBtn:hover{
+  background-color: green;
+}
+.CodeMirror{
+  min-height: 100vh;
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
